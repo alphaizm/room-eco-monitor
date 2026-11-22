@@ -11,10 +11,13 @@ const elements = {
     error: document.getElementById("error-message"),
     range: document.getElementById("range-select"),
     device: document.getElementById("device-select"),
-    reload: document.getElementById("reload-button")
+    reload: document.getElementById("reload-button"),
+    jsonLink: document.getElementById("json-link")
 };
 
 const numberFormat = new Intl.NumberFormat("ja-JP", { maximumFractionDigits: 1 });
+const firstDataDate = "2026-11-22";
+const dailyFileCache = new Map();
 const filterThresholds = {
     temperature: 3,
     humidity: 15,
@@ -661,21 +664,94 @@ function render() {
     renderCharts(rows);
 }
 
-async function loadData() {
+function dateKeyInJst(date) {
+    const parts = new Intl.DateTimeFormat("en-US", {
+        timeZone: "Asia/Tokyo",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit"
+    }).formatToParts(date);
+    const values = {};
+    for (const part of parts) {
+        if (part.type !== "literal") values[part.type] = part.value;
+    }
+    return `${values.year}-${values.month}-${values.day}`;
+}
+
+function shiftDateKey(dateKey, days) {
+    const [year, month, day] = dateKey.split("-").map(Number);
+    return new Date(Date.UTC(year, month - 1, day + days))
+        .toISOString()
+        .slice(0, 10);
+}
+
+function dailyDatesForRange() {
+    const today = dateKeyInJst(new Date());
+    const endDate = today === firstDataDate ? today : shiftDateKey(today, -1);
+    let startDate = firstDataDate;
+    if (state.range !== "all") {
+        const hours = state.range === "24h" ? 24 : state.range === "7d" ? 24 * 7 : 24 * 30;
+        const startTime = Date.now() - (hours + 24) * 60 * 60 * 1000;
+        startDate = dateKeyInJst(new Date(startTime));
+    }
+    if (startDate < firstDataDate) startDate = firstDataDate;
+    if (startDate > endDate) return [];
+
+    const dates = [];
+    for (let date = startDate; date <= endDate; date = shiftDateKey(date, 1)) {
+        dates.push(date);
+    }
+    return dates;
+}
+
+async function loadDailyFile(dateKey, forceRefresh) {
+    const cached = dailyFileCache.get(dateKey);
+    if (
+        !forceRefresh &&
+        cached &&
+        (cached.records !== null || Date.now() - cached.loadedAt < 60_000)
+    ) {
+        return cached.records || [];
+    }
+
+    const fileName = `data_${dateKey.replace(/-/g, "")}.json`;
+    const url = new URL(`./${fileName}`, document.baseURI);
+    url.searchParams.set("_", Date.now().toString());
+    const response = await fetch(url, { cache: "no-store" });
+    if (response.status === 404) {
+        dailyFileCache.set(dateKey, { records: null, loadedAt: Date.now() });
+        return [];
+    }
+    if (!response.ok) {
+        throw new Error(`${fileName}の取得に失敗しました (HTTP ${response.status})`);
+    }
+
+    const source = await response.json();
+    if (!Array.isArray(source)) {
+        throw new Error(`${fileName}の形式が配列ではありません。`);
+    }
+    dailyFileCache.set(dateKey, { records: source, loadedAt: Date.now() });
+    return source;
+}
+
+let loadSequence = 0;
+
+async function loadData(forceRefresh = false) {
+    const requestId = ++loadSequence;
+    if (forceRefresh) dailyFileCache.clear();
     elements.status.textContent = "JSONを読み込み中...";
     elements.error.hidden = true;
     try {
-        const url = new URL("./data.json", document.baseURI);
-        url.searchParams.set("_", Date.now().toString());
-        const response = await fetch(url, { cache: "no-store" });
-        if (!response.ok) {
-            throw new Error(`data.jsonの取得に失敗しました (HTTP ${response.status})`);
+        const dates = dailyDatesForRange();
+        const source = [];
+        for (let offset = 0; offset < dates.length; offset += 8) {
+            const batch = await Promise.all(
+                dates.slice(offset, offset + 8).map((date) => loadDailyFile(date, forceRefresh))
+            );
+            source.push(...batch.flat());
+            if (requestId !== loadSequence) return;
         }
 
-        const source = await response.json();
-        if (!Array.isArray(source)) {
-            throw new Error("data.jsonの形式が配列ではありません。");
-        }
         state.records = source
             .map((record) => ({
                 ...record,
@@ -687,10 +763,18 @@ async function loadData() {
         updateDeviceOptions(state.records);
         render();
         const latest = state.records[state.records.length - 1];
-        elements.status.textContent = latest
-            ? `${state.records.length.toLocaleString("ja-JP")}件 · ${latest.timestamp}まで`
-            : "表示できる時刻付きデータがありません";
+        if (latest) {
+            const latestDate = latest.timestamp.slice(0, 10).replace(/-/g, "");
+            elements.jsonLink.href = `./data_${latestDate}.json`;
+            elements.jsonLink.hidden = false;
+            elements.status.textContent =
+                `${getVisibleRecords().length.toLocaleString("ja-JP")}件 · ${latest.timestamp}まで`;
+        } else {
+            elements.jsonLink.hidden = true;
+            elements.status.textContent = "該当する日別データがありません";
+        }
     } catch (error) {
+        if (requestId !== loadSequence) return;
         elements.status.textContent = "読み込みエラー";
         elements.error.textContent = error instanceof Error ? error.message : String(error);
         elements.error.hidden = false;
@@ -704,13 +788,13 @@ async function loadData() {
 
 elements.range.addEventListener("change", () => {
     state.range = elements.range.value;
-    render();
+    loadData();
 });
 elements.device.addEventListener("change", () => {
     state.deviceKey = elements.device.value;
     render();
 });
-elements.reload.addEventListener("click", loadData);
+elements.reload.addEventListener("click", () => loadData(true));
 
 loadData();
-window.setInterval(loadData, 60_000);
+window.setInterval(() => loadData(), 60_000);
