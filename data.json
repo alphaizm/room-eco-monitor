@@ -1,0 +1,1849 @@
+[
+    {
+        "timestamp": "2026-11-22 13:03",
+        "ac_operation_status": null,
+        "ac_indoor_temp": null,
+        "ac_humidity": null,
+        "ac_outdoor_temp": null,
+        "ac_power": null,
+        "ac_cumulative_power_wh": null,
+        "ac_mode": null,
+        "ac_target_temp": null,
+        "ac_fan_speed": null,
+        "ac_energy_saving": null,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 17.9,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21,
+                "humidity": 50,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 16.8,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 70,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.4,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:09",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621200,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21,
+                "humidity": 50,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 70,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.4,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:14",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621200,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 9,
+                "humidity": 70,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.5,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:19",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 10,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621300,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 9.3,
+                "humidity": 70,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.5,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:24",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621400,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 9.3,
+                "humidity": 70,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.5,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:29",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621500,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 9.3,
+                "humidity": 70,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.5,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:34",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621500,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.1,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 71,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.5,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:39",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 621600,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.1,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 71,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.5,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:44",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 621700,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.2,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 71,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.7,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:49",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 621800,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 56,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.1,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 71,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.7,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:54",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 621800,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 56,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.1,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 73,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.7,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 13:59",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 621900,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 56,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.1,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.8,
+                "humidity": 73,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.7,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:04",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 9,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622000,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.2,
+                "humidity": 56,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.1,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.6,
+                "humidity": 75,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:09",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 35,
+        "ac_outdoor_temp": 8,
+        "ac_power": 700,
+        "ac_cumulative_power_wh": 622000,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.1,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8.3,
+                "humidity": 73,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:14",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 35,
+        "ac_outdoor_temp": 8,
+        "ac_power": 700,
+        "ac_cumulative_power_wh": 622100,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.1,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8,
+                "humidity": 73,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.4,
+                "humidity": 33,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:19",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 35,
+        "ac_outdoor_temp": 8,
+        "ac_power": 700,
+        "ac_cumulative_power_wh": 622200,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 8,
+                "humidity": 73,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:24",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622200,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.2,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.7,
+                "humidity": 75,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:29",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622300,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.7,
+                "humidity": 75,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:34",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622400,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.6,
+                "humidity": 77,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:39",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 622400,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.3,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.6,
+                "humidity": 57,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.6,
+                "humidity": 77,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.8,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:44",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622500,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.4,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.8,
+                "humidity": 56,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.4,
+                "humidity": 76,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:49",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622600,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.4,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.8,
+                "humidity": 56,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.2,
+                "humidity": 57,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.4,
+                "humidity": 76,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.2,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:54",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622700,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.4,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.8,
+                "humidity": 56,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.3,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.3,
+                "humidity": 78,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.3,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 14:59",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622700,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.4,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.3,
+                "humidity": 53,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.8,
+                "humidity": 56,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.3,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.3,
+                "humidity": 78,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.3,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 15:04",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 800,
+        "ac_cumulative_power_wh": 622800,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.4,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.4,
+                "humidity": 54,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.8,
+                "humidity": 56,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.3,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.1,
+                "humidity": 77,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.3,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-11-22 15:11",
+        "ac_operation_status": "on",
+        "ac_indoor_temp": 26,
+        "ac_humidity": 30,
+        "ac_outdoor_temp": 8,
+        "ac_power": 900,
+        "ac_cumulative_power_wh": 622900,
+        "ac_mode": "auto",
+        "ac_target_temp": 25,
+        "ac_fan_speed": 55,
+        "ac_energy_saving": 67,
+        "switchbot_devices": [
+            {
+                "device_id": "B0E9FE579D61",
+                "device_type": "MeterPro",
+                "temperature": 18.4,
+                "humidity": 55,
+                "device_label": "2F_ホール"
+            },
+            {
+                "device_id": "B0E9FEA59E58",
+                "device_type": "Hub 3",
+                "temperature": 21.4,
+                "humidity": 49,
+                "device_label": "1F_リビング"
+            },
+            {
+                "device_id": "B0E9FEB9668C",
+                "device_type": "MeterPro(CO2)",
+                "temperature": 17.4,
+                "humidity": 54,
+                "co2": 627,
+                "device_label": "2F_作業場"
+            },
+            {
+                "device_id": "C1D295708BB5",
+                "device_type": "Hub 2",
+                "temperature": 19.8,
+                "humidity": 56,
+                "device_label": "1F_洗面"
+            },
+            {
+                "device_id": "CCAC81463C50",
+                "device_type": "Meter",
+                "temperature": 17.3,
+                "humidity": 56,
+                "device_label": "2F_Room1"
+            },
+            {
+                "device_id": "CE1BC1062E2B",
+                "device_type": "WoIOSensor",
+                "temperature": 7.1,
+                "humidity": 77,
+                "device_label": "外_temp"
+            },
+            {
+                "device_id": "DE6444C6311F",
+                "device_type": "WoIOSensor",
+                "temperature": 26.3,
+                "humidity": 34,
+                "device_label": "下_temp"
+            },
+            {
+                "device_id": "EB6B04467A60",
+                "device_type": "Meter",
+                "temperature": 16.9,
+                "humidity": 59,
+                "device_label": "2F_寝室"
+            }
+        ]
+    }
+]
