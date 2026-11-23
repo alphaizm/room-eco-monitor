@@ -439,7 +439,12 @@ function renderCharts(rows) {
             yaxis: "y2"
         }),
         lineTrace("ファン速度設定値", rows, (r) => asNumber(r.ac_fan_speed), "#475569", {
-            yaxis: "y3"
+            yaxis: "y3",
+            mode: "lines+text",
+            text: rows.map((r) => asNumber(r.ac_fan_speed) === null ? "" : "🪭"),
+            textposition: "middle center",
+            textfont: { color: "#475569", size: 14 },
+            marker: { size: 0 }
         })
     ];
     const combinedLayout = baseLayout("温度 (°C)", {
@@ -534,7 +539,13 @@ function renderCharts(rows) {
     }
 
     const powerTraces = [
-        lineTrace("消費電力", rows, (r) => asNumber(r.ac_power), "#e58a35"),
+        lineTrace("消費電力", rows, (r) => asNumber(r.ac_power), "#e58a35", {
+            mode: "lines+text",
+            text: rows.map((r) => asNumber(r.ac_power) === null ? "" : "⚡"),
+            textposition: "middle center",
+            textfont: { color: "#e58a35", size: 14 },
+            marker: { size: 0 }
+        }),
         lineTrace(
             "積算電力量",
             rows,
