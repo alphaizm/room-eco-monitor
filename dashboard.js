@@ -420,6 +420,19 @@ function renderCharts(rows) {
         "#8d5a97",
         "#7c6a0a"
     ];
+    const combinedMarkerInterval = Math.max(1, Math.ceil(rows.length / 30));
+    const combinedPowerMarkers = rows.map((record, index) =>
+        asNumber(record.ac_power) !== null &&
+                (index % combinedMarkerInterval === 0 || index === rows.length - 1)
+            ? "⚡"
+            : ""
+    );
+    const combinedFanMarkers = rows.map((record, index) =>
+        asNumber(record.ac_fan_speed) !== null &&
+                (index % combinedMarkerInterval === 0 || index === rows.length - 1)
+            ? "💨"
+            : ""
+    );
     const combinedTraces = [
         lineTrace("エアコン室温", rows, (r) => r.filtered.ac_indoor_temp, "#2864dc"),
         lineTrace("エアコン外気温", rows, (r) => r.filtered.ac_outdoor_temp, "#e58a35"),
@@ -438,17 +451,17 @@ function renderCharts(rows) {
         lineTrace("エアコン消費電力", rows, (r) => asNumber(r.ac_power), "#c2410c", {
             yaxis: "y2",
             mode: "lines+text",
-            text: rows.map((r) => asNumber(r.ac_power) === null ? "" : "⚡"),
+            text: combinedPowerMarkers,
             textposition: "middle center",
-            textfont: { color: "#c2410c", size: 14 },
+            textfont: { color: "#c2410c", size: 16 },
             marker: { size: 0 }
         }),
         lineTrace("ファン速度設定値", rows, (r) => asNumber(r.ac_fan_speed), "#475569", {
             yaxis: "y3",
             mode: "lines+text",
-            text: rows.map((r) => asNumber(r.ac_fan_speed) === null ? "" : "🪭"),
+            text: combinedFanMarkers,
             textposition: "middle center",
-            textfont: { color: "#475569", size: 14 },
+            textfont: { color: "#475569", size: 16 },
             marker: { size: 0 }
         })
     ];
