@@ -430,7 +430,7 @@ function renderCharts(rows) {
     const combinedFanMarkers = rows.map((record, index) =>
         asNumber(record.ac_fan_speed) !== null &&
                 (index % combinedMarkerInterval === 0 || index === rows.length - 1)
-            ? "💨"
+            ? "風"
             : ""
     );
     const combinedTraces = [
@@ -453,7 +453,7 @@ function renderCharts(rows) {
             mode: "lines+text",
             text: combinedPowerMarkers,
             textposition: "middle center",
-            textfont: { color: "#c2410c", size: 16 },
+            textfont: { color: "#c2410c", size: 20 },
             marker: { size: 0 }
         }),
         lineTrace("ファン速度設定値", rows, (r) => asNumber(r.ac_fan_speed), "#475569", {
@@ -461,7 +461,7 @@ function renderCharts(rows) {
             mode: "lines+text",
             text: combinedFanMarkers,
             textposition: "middle center",
-            textfont: { color: "#475569", size: 16 },
+            textfont: { color: "#475569", size: 18 },
             marker: { size: 0 }
         })
     ];
