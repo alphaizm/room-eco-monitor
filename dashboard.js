@@ -325,6 +325,25 @@ function lineTrace(name, rows, valueSelector, color, extra = {}) {
     };
 }
 
+function sparseMarkerText(rows, valueSelector, marker) {
+    const validIndexes = [];
+    for (let index = 0; index < rows.length; index += 1) {
+        if (asNumber(valueSelector(rows[index])) !== null) {
+            validIndexes.push(index);
+        }
+    }
+
+    const markerCount = Math.min(30, validIndexes.length);
+    const markerIndexes = new Set();
+    for (let index = 0; index < markerCount; index += 1) {
+        const validIndex = markerCount === 1
+            ? 0
+            : Math.round(index * (validIndexes.length - 1) / (markerCount - 1));
+        markerIndexes.add(validIndexes[validIndex]);
+    }
+    return rows.map((_, index) => markerIndexes.has(index) ? marker : "");
+}
+
 function showEmptyMessage(id, message) {
     Plotly.react(
         id,
@@ -420,19 +439,10 @@ function renderCharts(rows) {
         "#8d5a97",
         "#7c6a0a"
     ];
-    const combinedMarkerInterval = Math.max(1, Math.ceil(rows.length / 30));
-    const combinedPowerMarkers = rows.map((record, index) =>
-        asNumber(record.ac_power) !== null &&
-                (index % combinedMarkerInterval === 0 || index === rows.length - 1)
-            ? "⚡"
-            : ""
-    );
-    const combinedFanMarkers = rows.map((record, index) =>
-        asNumber(record.ac_fan_speed) !== null &&
-                (index % combinedMarkerInterval === 0 || index === rows.length - 1)
-            ? "風"
-            : ""
-    );
+    const combinedPowerMarkers =
+        sparseMarkerText(rows, (record) => record.ac_power, "⚡");
+    const combinedFanMarkers =
+        sparseMarkerText(rows, (record) => record.ac_fan_speed, "風");
     const combinedTraces = [
         lineTrace("エアコン室温", rows, (r) => r.filtered.ac_indoor_temp, "#2864dc"),
         lineTrace("エアコン外気温", rows, (r) => r.filtered.ac_outdoor_temp, "#e58a35"),
@@ -453,7 +463,7 @@ function renderCharts(rows) {
             mode: "lines+text",
             text: combinedPowerMarkers,
             textposition: "middle center",
-            textfont: { color: "#c2410c", size: 20 },
+            textfont: { color: "#facc15", size: 20 },
             marker: { size: 0 }
         }),
         lineTrace("ファン速度設定値", rows, (r) => asNumber(r.ac_fan_speed), "#475569", {
