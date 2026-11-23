@@ -436,7 +436,12 @@ function renderCharts(rows) {
             )
         ),
         lineTrace("エアコン消費電力", rows, (r) => asNumber(r.ac_power), "#c2410c", {
-            yaxis: "y2"
+            yaxis: "y2",
+            mode: "lines+text",
+            text: rows.map((r) => asNumber(r.ac_power) === null ? "" : "⚡"),
+            textposition: "middle center",
+            textfont: { color: "#c2410c", size: 14 },
+            marker: { size: 0 }
         }),
         lineTrace("ファン速度設定値", rows, (r) => asNumber(r.ac_fan_speed), "#475569", {
             yaxis: "y3",
